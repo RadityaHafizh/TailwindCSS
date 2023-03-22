@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Belajar Talwind</title>
+    <style></style>
+  </head>
+  <body class="dark:bg-slate-800 dark:text-slate-200">
+    <h1 class="text-6xl font-bold text-center">Mari Belajar <span class="bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">TailwindCSS</span></h1>
+
+    <section class="mb-10 bg-gradient-to-r from-indigo-100 via-red-200 to-yellow-300">
+      <h2 class="text-3xl text-center">Spacing</h2>
+      <div class="m-13 bg-red-200">Margin</div>
+      <div class="py-8 bg-red-200">Padding</div>
+    </section>
+
+    <section class="mb-10 bg-lime-200">
+      <h2 class="text-3xl text-center">Sizing</h2>
+      <div class="w-32 h-32 bg-yellow-200">Kotak 1</div>
+    </section>
+
+    <section class="font-mono max-w-2xl mx-auto">
+      <h2 class="mb-2 text-4xl font-bold">Belajar Mengenai Typhography pada TailwindCSS</h2>
+      <div class="mb-4 text-lg text-gray-500">By <a href="" class="text-bold text-gray-700">Raditya Hafizh</a>, 14 Maret 2023</div>
+      <p class="mb-4">
+        Lorem ipsum dolor sit amet <a href="" class="underline font-semi text-blue-500">consectetur</a> adipisicing elit. Iste nam praesentium est? Pariatur cupiditate rerum doloribus fuga vero debitis asperiores quasi temporibus, sint rem
+        magnam tempore laboriosam dolorem repudiandae eos molestias quod assumenda eum ad. Consequuntur co nsectetur qui omnis odio laboriosam ullam, blanditiis a eligendi ab veritatis magnam doloremque aperiam.
+      </p>
+      <blockquote class="mb-4 italic font-thin">
+        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, libero! Earum, eveniet deserunt rerum laboriosam tempore aut eligendi necessitatibus accusantium vero beatae quas delectus debitis repellendus dolor voluptates saepe
+        reprehenderit."
+      </blockquote>
+      <p class="mb-4">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, dolores mollitia corrupti, explicabo placeat debitis vero nulla ad maiores, laboriosam saepe incidunt eos accusantium nostrum quos consectetur obcaecati fugit quam.
+      </p>
+    </section>
+
+    <div class="max-w-xl h-96 overflow-y-scroll bg-scroll bg-[#bada55] mx-auto mt-[42px]" style="background-image: url('https:/source.unsplash.com/1000x600?gaming')">
+      <p class="p-5 text-2xl">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci iste quia a delectus laudantium necessitatibus sed quas iure quidem enim incidunt recusandae repellendus nesciunt soluta, in dolore earum, nostrum molestias corrupti
+        non nam perspiciatis itaque aperiam? Earum voluptas suscipit accusantium at temporibus officia obcaecati corporis modi, itaque dolor pariatur saepe dolorem ex tempore vero nihil quisquam adipisci nam atque ducimus numquam officiis
+        iure? Rem alias veniam asperiores ad illo quaerat sunt, facilis itaque fugit deserunt, ut eveniet quia amet animi earum adipisci quisquam doloremque error. Consequatur ad deleniti harum nulla eos pariatur quod reiciendis. Adipisci
+        error labore neque consectetur ex tempore est, voluptates dignissimos cupiditate nobis voluptatem facere nihil dolores minima quia id nemo, nam ipsa quibusdam, sequi maiores optio. Earum, reprehenderit! Esse vitae provident soluta
+        suscipit itaque tempora repudiandae et, obcaecati consequuntur, eaque saepe expedita reiciendis harum voluptate sint quo impedit ratione qui ex at? Similique ullam quidem autem, eos dolorem possimus incidunt atque eligendi
+        recusandae est repudiandae officia odio optio dolorum officiis aut cum iusto rem. Vel delectus aut aperiam amet obcaecati quos sint! Vero fugiat cum, quasi est unde dolores aliquid totam rem explicabo blanditiis fugit quod quae
+        libero, atque harum sint natus sit illo, praesentium tempore?
+      </p>
+    </div>
+
+    <div class="mt-32 max-w-xl mx-auto h-96 bg-slate-300 bg-contain bg-no-repeat bg-center rounded-2xl shadow-xl shadow-slate-500 overflow-hidden flex" style="background-image: url(/img/1.jfif)">
+      <div class="w-[200px] h-[200px] bg-white/30% m-auto backdrop-blur-lg"></div>
+    </div>
+
+    <hr class="my-20" />
+
+    <div class="flex justify-center">
+      <span class="text-sm text-slate-500 mr-2">Light</span>
+      <input type="checkbox" class="hidden" id="toggle" />
+      <label for="toggle">
+        <div class="w-9 h-5 bg-slate-500 rounded-full flex items-center p-1 cursor-pointer">
+          <div class="w-4 h-4 bg-white rounded-full toggle-circle"></div>
+        </div>
+      </label>
+      <span class="text-sm text-slate-500 ml-2">Dark</span>
+    </div>
+
+    <button
+      class="my-10 bg-sky-500 px-5 py-2 rounded-full text-white font-semibold font-mono block mx-auto hover:bg-sky-600 active:bg-sky-700 focus:ring-sky-300 group dark:bg-slate-300 dark:text-slate-800 dark:hover:text-slate-900 dark:hover:bg-slate-100"
+    >
+      Simpan
+    </button>
+
+    <div class="max-w-lg my-10 border border-slate-200 rounder-xl mx-auto p-5 shadow-md font-serif hover:bg-sky-500 group dark:hover:bg-slate-300">
+      <h5 class="font-bold text-slate-700 text-lg mb-3 group-hover:text-white dark:group-hover:text-slate-800">My Card</h5>
+      <p
+        class="text-slate-600 group-hover:text-white selection:bg-lime-300 selection:text-slate-900 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:float-left first-letter:mr-3 dark:group-hover:text-slate-800"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, quidem provident! Libero, nisi quos eius cum praesentium, consequatur delectus nihil asperiores natus minus adipisci impedit accusamus labore nobis nemo
+        temporibus.
+      </p>
+    </div>
+
+    <div class="max-w-lg border border-slate-200 rounded-xl mx-auto shadow-md font-mono p-5">
+      <form action="">
+        <label for="email">
+          <span class="block font-semibold mb-1 text-slate-700 after:content-['*'] after:text-pink-500 after:ml-0.5">Email</span>
+          <input
+            type="email"
+            id="email"
+            placeholder="Masukkan Email..."
+            class="px-3 py-2 border shaodow rounded w-full block text-sm placeholder:text-slate-400 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500 invalid:text-pink-700 invalid:focus:ring-pink-700 invalid:focus:border-pink-700 peer"
+          />
+          <p class="text-sm m-1 text-pink-700 invisible peer-invalid:visible">Email Tidak Valid</p>
+        </label>
+      </form>
+    </div>
+
+    <hr class="my-20" />
+
+    <div class="w-40 h-40 bg-sky-500 mx-auto rounded-lg shadow-lg hover:scale-125 hover:rotate-45 hover:bg-pink-500 transition origin-top-left"></div>
+
+    <div class="w-40 h-40 mx-auto mt-20 group">
+      <div class="w-full h-full bg-sky-500 rounded-lg shadow-lg group-hover:rotate-180 origin-top-left transition duration-1000 delay-1000"></div>
+    </div>
+
+    <div class="w-40 h-40 bg-pink-500 mx-auto rounded-lg shadow-lg mt-20 animate-spin-slow"></div>
+
+    <hr class="my-20 border-t-4" />
+
+    <div class="container px-8 mx-auto">
+      <div class="border rounded-lg shadow-lg p-10 relative">
+        <div class="w-10 h-10 bg-sky-200 rounded-full flex fixed bottom-5 right-5 cursor-pointer"><a class="text m-auto">🔼</a></div>
+        <img src="img/1.jfif" alt="Laptop" width="150" class="float-left mr-4" />
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, esse maxime est modi aliquam culpa debitis eveniet repudiandae illum ad ut voluptates, saepe sed odio delectus suscipit doloremque dolorum! Doloremque, nobis!
+          Temporibus quae, ea sed aliquid, id ratione doloribus reiciendis consequatur ad labore beatae quam eum quasi aut excepturi minima?
+        </p>
+      </div>
+    </div>
+
+    <div class="container border rounded-lg shadow-lg p-10 mt-20 columns-3">
+      <img src="https://source.unsplash.com/600x400" alt="Image" class="mb-4" />
+      <img src="https://source.unsplash.com/600x400" alt="Image" class="mb-4" />
+      <img src="https://source.unsplash.com/600x400" alt="Image" class="mb-4" />
+      <img src="https://source.unsplash.com/600x400" alt="Image" class="mb-4" />
+      <img src="https://source.unsplash.com/600x400" alt="Image" class="mb-4" />
+      <img src="https://source.unsplash.com/600x400" alt="Image" class="mb-4" />
+    </div>
+
+    <hr class="my-24 border-t-4" />
+
+    <div class="container px-6 font-mono max-w-md mx-auto sm:max-w-xl md:max-w-5xl lg:flex lg:max-w-full lg:p-0">
+      <div class="lg:p-12 lg:flex-1">
+        <h3 class="text-4xl font-bold text-slate-800 md:text-6xl">Raditya <span class="text-sky-500">Hafizh</span></h3>
+        <img src="img/2.jfif" alt="Laptop" class="mt-4 rounded-xl shadow-xl sm:mt-6 sm:h-64 sm:w-full sm:object-cover sm:object-center lg:hidden" />
+        <h2 class="mt-6 text-2xl font-semibold text-slate-800 sm:mt-8 sm:text-4xl">Mari Belajar Programming Bersama</h2>
+        <p class="mt-2 text-slate-600 sm:mt-4 sm:text-xl">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius maiores porro aspernatur assumenda unde possimus ratione, velit dolore tenetur magnam dolorem repellat vel, modi neque. Magnam vitae, facilis, iure, quaerat minus quis
+        </p>
+        <div class="mt-4 sm:mt-6">
+          <a href="" class="inline-block px-5 py-3 bg-red-600 text-white rounded-lg shadow-lg uppercase font-semibold tracking-wider text-sm sm:text-base">Subscribe Channel Youtube</a>
+        </div>
+      </div>
+      <div class="hidden lg:flex lg:w-1/2">
+        <img src="img/2.jfif" alt="Laptop" class="object-cover rounded-l-3xl" />
+      </div>
+    </div>
+
+    <h2 class="mt-24 mb-10 text-center font-bold text-3xl text-slate-700">My Gallery</h2>
+
+    <div class="container mx-auto px-6 font-mono sm:flex sm:flex-wrap sm:gap-6 sm:justify-evenly">
+      <div class="rounded-md shadow-lg overflow-hidden mb-10 sm:mb-0 sm:w-64 md:w-80 lg:-72 bg-white">
+        <img src="https://source.unsplash.com/600x400" alt="Image Caption" class="w-full" />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2 text-slate-700">Image Title</div>
+          <p class="text-sm text-slate-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, obcaecati?</p>
+        </div>
+      </div>
+      <div class="rounded-md shadow-lg overflow-hidden mb-10 sm:mb-0 sm:w-64 md:w-80 lg:-72 bg-white">
+        <img src="https://source.unsplash.com/600x400" alt="Image Caption" class="w-full" />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2 text-slate-700">Image Title</div>
+          <p class="text-sm text-slate-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, obcaecati?</p>
+        </div>
+      </div>
+      <div class="rounded-md shadow-lg overflow-hidden mb-10 sm:mb-0 sm:w-64 md:w-80 lg:-72 bg-white">
+        <img src="https://source.unsplash.com/600x400" alt="Image Caption" class="w-full" />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2 text-slate-700">Image Title</div>
+          <p class="text-sm text-slate-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, obcaecati?</p>
+        </div>
+      </div>
+      <div class="rounded-md shadow-lg overflow-hidden mb-10 sm:mb-0 sm:w-64 md:w-80 lg:-72 bg-white">
+        <img src="https://source.unsplash.com/600x400" alt="Image Caption" class="w-full" />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2 text-slate-700">Image Title</div>
+          <p class="text-sm text-slate-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, obcaecati?</p>
+        </div>
+      </div>
+      <div class="rounded-md shadow-lg overflow-hidden mb-10 sm:mb-0 sm:w-64 md:w-80 lg:-72 bg-white">
+        <img src="https://source.unsplash.com/600x400" alt="Image Caption" class="w-full" />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2 text-slate-700">Image Title</div>
+          <p class="text-sm text-slate-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, obcaecati?</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-64 p-2 font-mono grid grid-cols-2 gap-2 md:grid-cols-4 md:p-4">
+      <h2 class="h-15 text-xl font-semibold text-slate-700 md:col-start-4 md:row-start-2 flex"><span class="self-center">Welcome to Grid</span></h2>
+      <div class="h-15 text-lg font-bold text-slate-600 md:col-start-2 md:row-start-2 flex"><span class="self-end">@radityahafizh</span></div>
+
+      <div class="group grid-card">
+        <div class="grid-card-img bg-[url('/img/grid/1.jfif')]"></div>
+      </div>
+      <div class="group grid-card md:col-start-3">
+        <div class="grid-card-img bg-[url('/img/grid/2.jfif')]"></div>
+      </div>
+      <div class="group grid-card">
+        <div class="grid-card-img bg-[url('/img/grid/3.jfif')]"></div>
+      </div>
+      <div class="group grid-card">
+        <div class="grid-card-img bg-[url('/img/grid/4.jfif')]"></div>
+      </div>
+      <div class="group grid-card">
+        <div class="grid-card-img bg-[url('/img/grid/5.jfif')]"></div>
+      </div>
+      <div class="group grid-card md:col-start-2">
+        <div class="grid-card-img bg-[url('/img/grid/6.jfif')]"></div>
+      </div>
+      <div class="group grid-card md:col-start-4">
+        <div class="grid-card-img bg-[url('/img/grid/7.jfif')]"></div>
+      </div>
+      <div class="group grid-card">
+        <div class="grid-card-img bg-[url('/img/grid/8.jfif')]"></div>
+      </div>
+      <div class="group grid-card md:col-start-3">
+        <div class="grid-card-img bg-[url('/img/grid/9.jfif')]"></div>
+      </div>
+      <div class="group grid-card md:col-start-3">
+        <div class="grid-card-img bg-[url('/img/grid/10.jfif')]"></div>
+      </div>
+    </div>
+
+    <div class="mb-96"></div>
+
+    <script>
+      const checkbox = document.querySelector("#toggle");
+      const html = document.querySelector("html");
+
+      checkbox.addEventListener("click", function () {
+        checkbox.checked ? html.classList.add("dark") : html.classList.remove("dark");
+      });
+    </script>
+  </body>
+</html>
